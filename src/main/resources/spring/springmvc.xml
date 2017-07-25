@@ -18,8 +18,9 @@
 	<!-- 匹配根绝访问路径 和@RequestMapping("path")中的path  
 		请求的数据 绑定到 方法的参数中
 	-->
-	<mvc:annotation-driven/>
+	<mvc:annotation-driven />
 	
+
 	<!-- 配置视图解析器， 根据返回的视图名称 找到jsp 并且根据数据和jsp生成网页 -->
 	<bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
